@@ -1,0 +1,16 @@
+name            = "google-fonts-proxy"
+main            = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# ─── Workers 免费套餐即可满足需求 ────────────────────────────────────────────
+# usage_model = "bundled"   # 付费套餐时可解注释
+
+# ─── 可选：绑定自定义域名路由 ────────────────────────────────────────────────
+# [[routes]]
+# pattern = "fonts.example.com/*"
+# zone_name = "example.com"
+
+# ─── 可选：限制来源（留空则不限制）─────────────────────────────────────────
+# [vars]
+# ALLOWED_ORIGINS = "https://example.com,https://www.example.com"
